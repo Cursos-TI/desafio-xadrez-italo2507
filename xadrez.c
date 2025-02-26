@@ -1,15 +1,18 @@
 #include <stdio.h>
 
-//mover o bispo 6 casas para direita
+//mover a rainha 8 casas para esquerda
 int main(){
 
-  int i = 5;
+  int i = 8;
+do{
 
-  while(i <= 10)
-{
-    printf("cima,direita\n"); //imprime a direcao do movimento do bispo
+    printf("cima,esquerda\n"); //imprime a direcao do movimento da rainha
     i++;
-}
+   
+}while(i == 0);
+
+printf("oito vezes! \n");//imprime a indicao de quantas vezes a rainha se movimenta
+
     return 0;
   }
 
