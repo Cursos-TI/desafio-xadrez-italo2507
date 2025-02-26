@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-// Desafio de Xadrez - MateCheck
-int main() {
+//mover o bispo 6 casas para direita
+int main(){
 
-//mover  a torre 5 casas para a direita
-for (int i = 0; i < 5; i++) {
+  int i = 5;
 
-printf("direita\n"); //imprime a direcao do movimento da torre
-
+  while(i <= 10)
+{
+    printf("cima,direita\n"); //imprime a direcao do movimento do bispo
+    i++;
 }
+    return 0;
+  }
 
-return 0;
 
-}
